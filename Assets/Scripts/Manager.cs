@@ -43,6 +43,14 @@ public class Manager : MonoBehaviour
             {
                 SceneManager.LoadScene("Scene1");
             }
+            if(hit.collider.name == "Sphere")
+            {
+                SceneManager.LoadScene("Scene2");
+            }
+            if(hit.collider.name == "Cube2")
+            {
+                SceneManager.LoadScene("Scene3");
+            }
         }
     }
 }
